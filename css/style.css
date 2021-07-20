@@ -1,6 +1,6 @@
 /*------- COMMON -------*/
-.container {
-    border: 1px solid rgba(255, 0, 0, 0.452);
+.row {
+    /* border: 1px solid rgba(202, 142, 142, 0.452); */
 }
 
 /*---------------- HEADER ----------------*/
@@ -28,7 +28,7 @@ header {
 
 /*------- Portfolio -------*/
 .box-img {
-    border: 1px solid rgba(0, 0, 0, 0.103);
+    /* border: 1px solid rgba(0, 0, 0, 0.103); */
     padding: 10px 0px;
 }
 .box-img div {
@@ -36,3 +36,26 @@ header {
     border-radius: 10px;
     height: 250px;
 }
+
+/*------- Portfolio -------*/
+.info {
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/*---------------- FOOTER ----------------*/
+footer {
+    color: white;
+}
+/*------- Top footer -------*/
+.top-footer {
+    background-color: rgb(60, 95, 124);
+    /* height: 200px; */
+}
+/*------- Low footer -------*/
+.low-footer {
+    background-color: rgb(28, 50, 68);
+    /* height: 100px; */
+}
+
