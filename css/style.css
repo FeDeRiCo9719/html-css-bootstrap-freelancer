@@ -2,9 +2,6 @@
 .container {
     border: 1px solid rgba(255, 0, 0, 0.452);
 }
-.col {
-    border: 1px solid chocolate;
-}
 
 /*---------------- HEADER ----------------*/
 header {
@@ -17,13 +14,11 @@ header {
 .logo {
     color: white;
 }
-.menu {
-    text-align: right;
-}
 
 /*---------------- MAIN ----------------*/
 /*------- Hero -------*/
-.hero {
+.hero,
+.about {
     color: white;
     background-color: rgb(14, 211, 168);
 }
@@ -31,3 +26,13 @@ header {
     font-size: 150px;
 }
 
+/*------- Portfolio -------*/
+.box-img {
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    padding: 10px 0px;
+}
+.box-img div {
+    background-color: rgb(118, 177, 192);
+    border-radius: 10px;
+    height: 250px;
+}
