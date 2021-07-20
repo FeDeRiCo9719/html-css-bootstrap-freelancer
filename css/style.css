@@ -1,0 +1,33 @@
+/*------- COMMON -------*/
+.container {
+    border: 1px solid rgba(255, 0, 0, 0.452);
+}
+.col {
+    border: 1px solid chocolate;
+}
+
+/*---------------- HEADER ----------------*/
+header {
+    background-color: rgb(56, 87, 128);
+}
+.space-header {
+    padding: 15px 0px;
+    align-items: center;
+}
+.logo {
+    color: white;
+}
+.menu {
+    text-align: right;
+}
+
+/*---------------- MAIN ----------------*/
+/*------- Hero -------*/
+.hero {
+    color: white;
+    background-color: rgb(14, 211, 168);
+}
+.hero i {
+    font-size: 150px;
+}
+
