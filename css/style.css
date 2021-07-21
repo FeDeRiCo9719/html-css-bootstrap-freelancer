@@ -21,6 +21,31 @@ header {
 .logo {
     color: white;
 }
+/*------- hamburger -------*/
+.hamburger {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.hamburger i {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.hamburger:hover {
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.hamburger:hover i {
+    color: lightgrey;
+}
+
 
 /*---------------- MAIN ----------------*/
 main section {
@@ -91,11 +116,13 @@ footer {
     background-color: rgb(72, 102, 126);
     /* height: 200px; */
 }
+/*------- icons -------*/
 .circle {
     display: inline-block;
     border: 1px solid white;
     width: 50px;
     height: 50px;
+    line-height: 50px;
     border-radius: 50%;
     cursor: pointer;
     text-align: center;
@@ -119,3 +146,12 @@ footer {
     /* height: 100px; */
 }
 
+/*---------------- RESPONSIVE ----------------*/
+@media screen and (min-width: 768px) {
+
+ /*------- hamburger -------*/
+    .hamburger {
+        display: none;
+    }
+    
+}
