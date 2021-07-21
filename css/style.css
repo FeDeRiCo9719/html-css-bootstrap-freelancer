@@ -6,11 +6,14 @@
     height: 100%;
     align-items: center;
 }
+header,
+.low-footer {
+    background-color: rgb(31, 62, 87);
+}
 
 /*---------------- HEADER ----------------*/
 header {
     position: fixed;
-    background-color: rgb(56, 87, 128);
     height: 80px;
     width: 100%;
     top: 0;
@@ -21,7 +24,7 @@ header {
 
 /*---------------- MAIN ----------------*/
 main section {
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 .small_wrapper {
@@ -36,21 +39,40 @@ main section {
 .hero,
 .about {
     color: white;
-    background-color: rgb(14, 211, 168);
+    background-color: rgb(53, 202, 170);
 }
-.hero i {
-    font-size: 150px;
+.hero img {
+    width: 200px;
+    margin: 20px 0px;
+}
+/*------- decoration -------*/
+.decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.decoration i {
+    margin: 0px 10px;
+}
+.line {
+    height: 3px;
+    width: 120px;
+}
+.bg_black {
+    background-color: black;
+}
+.bg_white {
+    background-color: white;
 }
 
 /*------- Portfolio -------*/
 .box-img {
-    /* border: 1px solid rgba(221, 2, 2, 0.219); */
     margin: 12px 0px;
 }
-.box-img div {
-    background-color: rgb(118, 177, 192);
+.box-img img {
+    width: 100%;
     border-radius: 10px;
-    height: 250px;
 }
 
 /*------- Portfolio -------*/
@@ -71,7 +93,6 @@ footer {
 }
 /*------- Low footer -------*/
 .low-footer {
-    background-color: rgb(28, 50, 68);
     padding: 30px 0px;
     /* height: 100px; */
 }
